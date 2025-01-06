@@ -9,9 +9,9 @@ body {
   
   header {
     position: fixed;
-    top: 20;
+    top: 0;
     width: 100%;
-    /* background-color: #140224; */
+    background-color: #958A9D;
     z-index: 1000;
     padding: 10px 0;
   }
@@ -25,6 +25,7 @@ body {
   }
   
   nav ul li {
+    font-family: 'Piazzolla', Arial;
     margin: 0 15px;
   }
   
@@ -50,23 +51,24 @@ body {
   }
   
   #home h1 {
+    font-family: 'Caveat', Arial;
     font-size: 48px;
     margin-bottom: 20px;
   }
   
   #home img {
-    width: 200px;
-    height: 200px;
-    /* border-radius: 50%; */
-    /* object-fit: cover; */
+    width: 250;
+    height: 250;
+    object-fit: cover;
+    border-radius: 50%;
     margin-bottom: 20px;
   }
   
   #home p {
     font-size: 18px;
     line-height: 1.6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
   }
-  
 
  /* Projects Section */
 .projects-container {
