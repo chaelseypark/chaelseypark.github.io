@@ -72,6 +72,46 @@ body {
   }
 
 
+  /* Social Icons */
+.social-icons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons {
+  text-decoration: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 40px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons:hover {
+  color: #515769;
+  background-color: #fff;
+  border-color: #515769;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+/* For FontAwesome or Simple Line Icons */
+.social-icons i {
+  line-height: inherit;
+}
+
+
+
 
 
 /* Experience Section */
@@ -224,4 +264,10 @@ body {
 
 .projects-container::-webkit-scrollbar-thumb:hover {
   background-color: #555;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
 }
